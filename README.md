@@ -136,3 +136,39 @@ Sensitive questions such as passwords or client IDs are automatically blocked to
 | **requirements.txt**           | Lists all Python dependencies required to run the project.                          |
 | **.env**                       | Stores environment variables such as API keys and secret keys.                      |
 | **README.md**                  | Project documentation and usage instructions.                                       |
+
+## Follow the steps below to set up and run the project locally.
+
+1. Clone the Repository
+
+2. Create a Conda Environment
+
+- conda create -n secure-rag python=3.11 -y
+- conda activate secure-rag
+
+3. Install Required Dependencies
+
+- pip install -r requirements.txt
+
+4. Create a file named .env in the project root directory. Add the following variables:
+
+- GROQ_API_KEY=your_groq_api_key_here
+- SECRET_KEY=your_secret_key_here
+
+5. Run the Flask Backend
+
+- python app.py
+
+6. Run the Streamlit Frontend
+
+- streamlit run frontend/streamlit_app.py
+
+## NOTE : This project was developed as part of the Round 2 Technical Assignment for the befree Internship.
+
+- The repository also includes:
+
+1. Project Documentation explaining the implementation and workflow.
+2. Sample test documents in the documents/ folder to test the application.
+3. README with setup and usage instructions.
+
+Simply follow the README, run the application, upload the sample documents, and start asking questions.
