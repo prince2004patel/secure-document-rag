@@ -163,9 +163,7 @@ Sensitive questions such as passwords or client IDs are automatically blocked to
 
 - streamlit run frontend/streamlit_app.py
 
-## NOTE : This project was developed as part of the Round 2 Technical Assignment for the befree Internship.
-
-- The repository also includes:
+## The repository also includes:
 
 1. Project Documentation explaining the implementation and workflow.
 2. Sample test documents in the documents/ folder to test the application.
